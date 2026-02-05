@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💰 Expense Splitter Challenge
 
 ## Time Limit: 2 hours
@@ -219,3 +220,4 @@ src/
 6. Note any incomplete features or known issues
 
 Good luck! 🍀
+
