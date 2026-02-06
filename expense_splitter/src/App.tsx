@@ -37,9 +37,9 @@ function App() {
         <h1 className="text-white text-4xl font-bold drop-shadow-lg">💰 Expense Splitter</h1>
       </header>
 
-      <main className="p-8">
-        <div className="max-w-7xl mx-auto flex gap-8" style={{ minWidth: '1000px' }}>
-          <div style={{ width: '50%', minWidth: '500px' }}>
+      <main className="p-4 sm:p-6 lg:p-8">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-6">
+          <div className="w-full lg:w-1/2">
             <PeopleManager 
               people={people}
               onAdd={addPerson}
@@ -51,7 +51,7 @@ function App() {
             />
           </div>
 
-          <div style={{ width: '50%', minWidth: '500px' }}>
+          <div className="w-full lg:w-1/2">
             <BalanceView 
               people={people}
               expenses={expenses}
