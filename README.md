@@ -1,3 +1,36 @@
+**Setup Instructions**
+1. Clone the repository
+- git clone <your-repo-url>
+- cd expense-splitter
+
+2. Install dependencies
+
+- Using npm:
+
+ npm install
+
+
+- Or yarn:
+
+ yarn
+
+3. Start development server
+- npm run dev
+
+
+or
+
+yarn dev
+
+4. Open in browser
+
+After starting, Vite will show something like:
+
+http://localhost:5173
+
+
+Open this link in your browser.
+   ```
 **1. Approach and Design**
 State Management
 
